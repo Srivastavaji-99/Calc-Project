@@ -1,59 +1,47 @@
-*{
-  margin:0;
-  padding:0;
-  box-sizing: border-box;
-}
-
 body{
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: linear-gradient(45deg, #020202, #09442f);
-}
-.calbox{
-  border: 1px solid #717377;
-  padding: 20px;
-  border-radius: 16px;
-  background: transparent;
-  box-shadow: 0px 3px 15px rgba(122, 126, 134, 0.5);
+  text-align: center;
+  box-size: border-box;
+  background-color: black;
 }
 
-input{
-  padding: 9px;
-  border: none;
-  margin: 10px;
-  background: transparent;
-  box-shadow: 0px 3px 15px rgba(84, 84, 84, 0.3);
-  font-size: 23px;
+h3{
+  color: white;
+  font-size: 30px;
+  font-family: Arial;
+}
+.container{
+  border: 2px solid grey;
+  border-radius: 10px;
+  width:250px;
+  margin-left:550px;
+  align-item: center;
+}
+
+#input-box{
+  width:210px;
+  color: white;
+  padding:10px 6px;
+  border-radius: 10px;
+  border:2px solid rgb(222, 136, 7);
+  background-color:black;
   text-align: right;
-  cursor: pointer;
-  color: white;
+  font-size: 15px
 }
 
-input::placeholder{
-  color: white;
-}
-
-button{
+.btn button{
+  background-color: grey;
   width: 50px;
   height: 50px;
-  border: none;
-  margin: 15px;
-  padding: 3px;
   border-radius: 50%;
-  background: transparent;
-  color: white;
-  box-shadow: -1px -2px 10px rgba(124, 124, 124, 0.2);
-  font-size: 20px;
+  border: none;
+  margin-top: 4px;
+  margin-bottom: 3px;
   cursor: pointer;
 }
 
-.butequal{
-  background-color: orangered;
+.btn .box-btn{
+  background-color: orange;
 }
-
-.but{
-  color: rgb(37, 238, 37);
+.btn .btn-equal{
+  border-radius: 15px;
 }
